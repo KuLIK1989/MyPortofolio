@@ -1,0 +1,43 @@
+.grid {
+  display: grid;
+  justify-content: center;
+  grid-auto-columns: 1fr;
+  grid-template-columns: 246px 595px;
+  grid-template-rows: 50px 60px 93px;
+  gap: 0px 18px;
+  grid-template-areas:
+    "grid__img grid__title"
+    "grid__img grid__date-subtitle"
+    "grid__img grid__text";
+
+  &__img {
+    grid-area: grid__img;
+  }
+  &__title {
+    grid-area: grid__title;
+  }
+  &__title-text {
+    margin: 0;
+    font-family: "Playfair Display";
+  }
+
+  &__subtitle {
+    margin: 0;
+    font-family: "Playfair Display";
+  }
+  &__date-subtitle {
+    grid-area: grid__date-subtitle;
+  }
+
+  &__date {
+    margin: 0;
+    font-family: "Playfair Display";
+  }
+  &__text {
+    grid-area: grid__text;
+  }
+  &__photo {
+    width: 246px;
+    height: 180px;
+  }
+}

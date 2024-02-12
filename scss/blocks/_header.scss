@@ -1,0 +1,13 @@
+.header {
+  width: 1152px;
+  display: flex;
+  justify-content: flex-end;
+
+  &__nav-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+    font-family: "Playfair Display";
+  }
+}
