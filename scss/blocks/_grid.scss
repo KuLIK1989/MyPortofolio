@@ -9,6 +9,8 @@
     "grid__img grid__title"
     "grid__img grid__date-subtitle"
     "grid__img grid__text";
+  border-bottom: 1px solid rgb(224, 224, 224);
+  margin-bottom: 40px;
 
   &__img {
     grid-area: grid__img;
@@ -27,10 +29,12 @@
   }
   &__date-subtitle {
     grid-area: grid__date-subtitle;
+    display: flex;
   }
 
   &__date {
     margin: 0;
+    margin-right: 15px;
     font-family: "Playfair Display";
   }
   &__text {
@@ -39,5 +43,10 @@
   &__photo {
     width: 246px;
     height: 180px;
+  }
+  &__link {
+    font-family: "Playfair Display";
+    color: red;
+    text-decoration: none;
   }
 }

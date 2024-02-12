@@ -339,6 +339,11 @@ template {
        column-gap: 15px;
   font-family: "Playfair Display";
 }
+.header a {
+  text-decoration: none;
+  font-family: "Playfair Display";
+  color: black;
+}
 
 .page {
   width: 1152px;
@@ -400,6 +405,8 @@ template {
   grid-template-rows: 50px 60px 93px;
   gap: 0px 18px;
   grid-template-areas: "grid__img grid__title" "grid__img grid__date-subtitle" "grid__img grid__text";
+  border-bottom: 1px solid rgb(224, 224, 224);
+  margin-bottom: 40px;
 }
 .grid__img {
   grid-area: grid__img;
@@ -417,9 +424,11 @@ template {
 }
 .grid__date-subtitle {
   grid-area: grid__date-subtitle;
+  display: flex;
 }
 .grid__date {
   margin: 0;
+  margin-right: 15px;
   font-family: "Playfair Display";
 }
 .grid__text {
@@ -428,6 +437,11 @@ template {
 .grid__photo {
   width: 246px;
   height: 180px;
+}
+.grid__link {
+  font-family: "Playfair Display";
+  color: red;
+  text-decoration: none;
 }
 
 .works {
