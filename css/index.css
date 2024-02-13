@@ -397,6 +397,10 @@ template {
 .author__texts {
   margin-right: 115px;
 }
+.author a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
 .author__btn {
   width: 208px;
   height: 47px;
@@ -407,6 +411,10 @@ template {
   font-family: "Old Standard TT";
   border: none;
   cursor: pointer;
+}
+.author__btn:hover {
+  background-color: rgb(255, 167, 167);
+  color: rgba(0, 0, 0, 0.719);
 }
 
 .grid {
@@ -484,4 +492,31 @@ template {
   height: 60px;
   margin: 0 0 22px 148px;
   font-family: "Old Standard TT";
+}
+
+.footer {
+  width: 1152px;
+}
+.footer h3 {
+  text-align: center;
+  font-family: "Old Standard TT";
+}
+
+.social {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  -moz-column-gap: 35px;
+       column-gap: 35px;
+  margin-top: 45px;
+  padding: 0;
+}
+.social li {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+.social img {
+  width: 50px;
+  height: 50px;
 }/*# sourceMappingURL=index.css.map */

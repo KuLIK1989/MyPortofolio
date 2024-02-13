@@ -34,6 +34,10 @@
   &__texts {
     margin-right: 115px;
   }
+  a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
   &__btn {
     width: 208px;
     height: 47px;
@@ -44,5 +48,9 @@
     font-family: "Old Standard TT";
     border: none;
     cursor: pointer;
+  }
+  &__btn:hover {
+    background-color: rgb(255, 167, 167);
+    color: rgba(0, 0, 0, 0.719);
   }
 }
