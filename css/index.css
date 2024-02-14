@@ -604,6 +604,8 @@ template {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-right: 20px;
+  margin-top: 10px;
 }
 
 #menu-toggle {
@@ -649,8 +651,6 @@ template {
 @media (max-width: 414px) {
   .menu-button-container {
     display: flex;
-    margin-right: 20px;
-    margin-top: 10px;
   }
   .menu {
     position: absolute;
