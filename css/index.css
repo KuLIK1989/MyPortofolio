@@ -360,8 +360,10 @@ template {
   .header {
     width: 414px;
     height: 35px;
-    color: white;
     font-family: "Old Standard TT";
+  }
+  .header a {
+    color: white;
   }
 }
 
@@ -654,8 +656,8 @@ template {
   }
   .menu {
     position: absolute;
-    top: 0;
-    left: 33px;
+    top: 39px;
+    left: 31px;
     flex-direction: column;
     width: 80%;
     justify-content: center;

@@ -19,7 +19,9 @@
   @media (max-width: 414px) {
     width: 414px;
     height: 35px;
-    color: white;
     font-family: "Old Standard TT";
+    a {
+      color: white;
+    }
   }
 }
