@@ -432,7 +432,7 @@ template {
   color: rgba(0, 0, 0, 0.719);
 }
 
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   .author {
     align-items: center;
   }
