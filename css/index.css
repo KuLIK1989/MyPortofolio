@@ -372,9 +372,9 @@ template {
   margin: auto;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 414px) {
   .page {
-    width: 400px;
+    width: 414px;
   }
 }
 .author {
