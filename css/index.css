@@ -356,27 +356,27 @@ template {
   font-family: "Old Standard TT";
   color: black;
 }
-
 @media (max-width: 375px) {
-  .header {
+  .header .header {
     width: 375px;
     height: 35px;
   }
-  .header a {
+  .header .header a {
     color: white;
     font-family: "Old Standard TT";
   }
 }
+
 .page {
   width: 1152px;
   margin: auto;
 }
-
 @media (max-width: 414px) {
-  .page {
+  .page .page {
     width: 414px;
   }
 }
+
 .author {
   display: flex;
   flex-direction: column;
@@ -431,30 +431,30 @@ template {
   background-color: rgb(255, 167, 167);
   color: rgba(0, 0, 0, 0.719);
 }
-
 @media (max-width: 414px) {
-  .author {
+  .author .author {
     align-items: center;
   }
-  .author__wraper {
+  .author .author__wraper {
     width: 328px;
     flex-direction: column-reverse;
   }
-  .author__title {
+  .author .author__title {
     width: 312px;
     text-align: center;
   }
-  .author__subtitle {
+  .author .author__subtitle {
     width: 328px;
     text-align: justify;
   }
-  .author__texts {
+  .author .author__texts {
     margin-right: 0;
   }
-  .author__btn {
+  .author .author__btn {
     margin-left: 0;
   }
 }
+
 .grid {
   display: grid;
   justify-content: center;
@@ -521,9 +521,8 @@ template {
   transform-origin: left;
   transform: scaleX(1);
 }
-
 @media (max-width: 375px) {
-  .grid {
+  .grid .grid {
     border-bottom: 2px solid rgb(201, 197, 197);
     grid-auto-rows: 1fr;
     grid-template-columns: 339px;
@@ -531,17 +530,18 @@ template {
     gap: 0px 18px;
     grid-template-areas: "grid__img" "grid__title" "grid__date-subtitle" "grid__text";
   }
-  .grid__photo {
+  .grid .grid__photo {
     width: 339px;
     height: 230px;
   }
-  .grid__title-text {
+  .grid .grid__title-text {
     text-wrap: nowrap;
   }
-  .grid__text {
+  .grid .grid__text {
     margin-bottom: 25px;
   }
 }
+
 .works {
   padding-top: 200px;
 }
@@ -559,12 +559,12 @@ template {
   text-align: center;
   font-family: "Old Standard TT";
 }
-
 @media (max-width: 375px) {
-  .footer {
+  .footer .footer {
     width: 375px;
   }
 }
+
 .social {
   list-style: none;
   display: flex;

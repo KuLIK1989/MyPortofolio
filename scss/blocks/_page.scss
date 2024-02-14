@@ -1,10 +1,10 @@
 .page {
   width: 1152px;
   margin: auto;
-}
 
-@media (max-width: 414px) {
-  .page {
-    width: 414px;
+  @media (max-width: 414px) {
+    .page {
+      width: 414px;
+    }
   }
 }

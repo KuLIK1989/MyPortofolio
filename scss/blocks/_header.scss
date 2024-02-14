@@ -15,15 +15,16 @@
     font-family: "Old Standard TT";
     color: black;
   }
-}
-@media (max-width: 375px) {
-  .header {
-    width: 375px;
-    height: 35px;
 
-    a {
-      color: white;
-      font-family: "Old Standard TT";
+  @media (max-width: 375px) {
+    .header {
+      width: 375px;
+      height: 35px;
+
+      a {
+        color: white;
+        font-family: "Old Standard TT";
+      }
     }
   }
 }
