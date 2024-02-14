@@ -17,14 +17,9 @@
   }
 
   @media (max-width: 414px) {
-    .header {
-      width: 414px;
-      height: 35px;
-
-      a {
-        color: white;
-        font-family: "Old Standard TT";
-      }
-    }
+    width: 414px;
+    height: 35px;
+    color: white;
+    font-family: "Old Standard TT";
   }
 }

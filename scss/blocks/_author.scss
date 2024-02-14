@@ -55,27 +55,25 @@
   }
 
   @media (max-width: 414px) {
-    .author {
-      align-items: center;
+    align-items: center;
 
-      &__wraper {
-        width: 328px;
-        flex-direction: column-reverse;
-      }
-      &__title {
-        width: 312px;
-        text-align: center;
-      }
-      &__subtitle {
-        width: 328px;
-        text-align: justify;
-      }
-      &__texts {
-        margin-right: 0;
-      }
-      &__btn {
-        margin-left: 0;
-      }
+    &__wraper {
+      width: 328px;
+      flex-direction: column-reverse;
+    }
+    &__title {
+      width: 312px;
+      text-align: center;
+    }
+    &__subtitle {
+      width: 328px;
+      text-align: justify;
+    }
+    &__texts {
+      margin-right: 0;
+    }
+    &__btn {
+      margin-left: 0;
     }
   }
 }

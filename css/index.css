@@ -357,11 +357,9 @@ template {
   color: black;
 }
 @media (max-width: 414px) {
-  .header .header {
+  .header {
     width: 414px;
     height: 35px;
-  }
-  .header .header a {
     color: white;
     font-family: "Old Standard TT";
   }
@@ -372,7 +370,7 @@ template {
   margin: auto;
 }
 @media (max-width: 414px) {
-  .page .page {
+  .page {
     width: 414px;
   }
 }
@@ -432,25 +430,25 @@ template {
   color: rgba(0, 0, 0, 0.719);
 }
 @media (max-width: 414px) {
-  .author .author {
+  .author {
     align-items: center;
   }
-  .author .author__wraper {
+  .author__wraper {
     width: 328px;
     flex-direction: column-reverse;
   }
-  .author .author__title {
+  .author__title {
     width: 312px;
     text-align: center;
   }
-  .author .author__subtitle {
+  .author__subtitle {
     width: 328px;
     text-align: justify;
   }
-  .author .author__texts {
+  .author__texts {
     margin-right: 0;
   }
-  .author .author__btn {
+  .author__btn {
     margin-left: 0;
   }
 }
@@ -522,22 +520,22 @@ template {
   transform: scaleX(1);
 }
 @media (max-width: 414px) {
-  .grid .grid {
+  .grid {
     border-bottom: 2px solid rgb(201, 197, 197);
     grid-auto-rows: 1fr;
     grid-template-columns: 339px;
     grid-template-rows: 300px 25px 25px auto;
-    gap: 0px 18px;
+    gap: 0px 19px;
     grid-template-areas: "grid__img" "grid__title" "grid__date-subtitle" "grid__text";
   }
-  .grid .grid__photo {
+  .grid__photo {
     width: 339px;
     height: 230px;
   }
-  .grid .grid__title-text {
+  .grid__title-text {
     text-wrap: nowrap;
   }
-  .grid .grid__text {
+  .grid__text {
     margin-bottom: 25px;
   }
 }
@@ -560,7 +558,7 @@ template {
   font-family: "Old Standard TT";
 }
 @media (max-width: 414px) {
-  .footer .footer {
+  .footer {
     width: 414px;
   }
 }
@@ -648,7 +646,7 @@ template {
   transform: rotate(-405deg);
 }
 
-@media (max-width: 400px) {
+@media (max-width: 414px) {
   .menu-button-container {
     display: flex;
   }
