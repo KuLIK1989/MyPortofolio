@@ -356,9 +356,9 @@ template {
   font-family: "Old Standard TT";
   color: black;
 }
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   .header .header {
-    width: 375px;
+    width: 414px;
     height: 35px;
   }
   .header .header a {
@@ -521,7 +521,7 @@ template {
   transform-origin: left;
   transform: scaleX(1);
 }
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   .grid .grid {
     border-bottom: 2px solid rgb(201, 197, 197);
     grid-auto-rows: 1fr;
@@ -559,9 +559,9 @@ template {
   text-align: center;
   font-family: "Old Standard TT";
 }
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   .footer .footer {
-    width: 375px;
+    width: 414px;
   }
 }
 
