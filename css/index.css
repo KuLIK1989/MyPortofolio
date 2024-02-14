@@ -357,9 +357,9 @@ template {
   color: black;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 375px) {
   .header {
-    width: 400px;
+    width: 375px;
     height: 35px;
   }
   .header a {
@@ -432,7 +432,7 @@ template {
   color: rgba(0, 0, 0, 0.719);
 }
 
-@media (max-width: 400px) {
+@media (max-width: 375px) {
   .author {
     align-items: center;
   }
@@ -522,7 +522,7 @@ template {
   transform: scaleX(1);
 }
 
-@media (max-width: 400px) {
+@media (max-width: 375px) {
   .grid {
     border-bottom: 2px solid rgb(201, 197, 197);
     grid-auto-rows: 1fr;
@@ -560,9 +560,9 @@ template {
   font-family: "Old Standard TT";
 }
 
-@media (max-width: 400px) {
+@media (max-width: 375px) {
   .footer {
-    width: 400px;
+    width: 375px;
   }
 }
 .social {

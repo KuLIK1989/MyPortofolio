@@ -69,7 +69,7 @@
     transform: scaleX(1);
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 375px) {
   .grid {
     border-bottom: 2px solid rgb(201, 197, 197);
     grid-auto-rows: 1fr;
